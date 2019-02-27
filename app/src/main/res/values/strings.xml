@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Data Mahasiswa</string>
+    <string name="lihat_data">Lihat Data</string>
+    <string name="input_data">Input Data</string>
+    <string name="informasi">Informasi</string>
+    <string name="description_info">Aplikasi Kampusku merupakan aplikasi yang digunakan untuk pendataan mahasiswa. User nantinya bisa menambahkan, update, dan hapus data mahasiswa</string>
+    <string name="nama_saya">Created By : Karang Reksa Ginolla</string>
+    <string name="version">Version : 1.1</string>
+    <string name="website">Web : likeaboss.com</string>
+    <string name="nomor">Nomor</string>
+    <string name="textview">TextView</string>
+    <string name="nama">Nama</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="alamat">Alamat</string>
+    <string name="date">1993-12-08</string>
+    <string name="jenisKelamin">L atau P</string>
+    <string name="simpan">Simpan</string>
+</resources>

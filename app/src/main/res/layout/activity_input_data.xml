@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputDataActivity"
+    android:padding="8dp"
+    android:background="@color/backgroundSplashscreen">
+
+    <EditText
+        android:id="@+id/editNomor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textNomor"
+        android:layout_below="@+id/textNomor"
+        android:drawableLeft="@drawable/ic_create"
+        android:inputType="number"
+        android:maxLength="10"
+        android:drawablePadding="8dp"
+        android:layout_alignStart="@+id/textNomor"
+        android:drawableStart="@drawable/ic_create">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textNomor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/nomor"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textNama"
+        android:layout_below="@+id/textNama"
+        android:drawableLeft="@drawable/ic_group"
+        android:inputType="text"
+        android:maxLength="20"
+        android:drawablePadding="8dp"
+        android:layout_alignStart="@+id/textNama"
+        android:drawableStart="@drawable/ic_group" />
+
+    <TextView
+        android:id="@+id/textNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editNomor"
+        android:layout_below="@+id/editNomor"
+        android:layout_marginTop="10dp"
+        android:text="@string/nama"
+        android:layout_alignStart="@+id/editNomor" />
+
+    <EditText
+        android:id="@+id/editDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textDate"
+        android:layout_below="@+id/textDate"
+        android:drawableLeft="@drawable/ic_date_range"
+        android:hint="@string/date"
+        android:inputType="date"
+        android:drawablePadding="8dp"
+        android:layout_alignStart="@+id/textDate"
+        android:drawableStart="@drawable/ic_date_range" />
+
+    <TextView
+        android:id="@+id/textDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editNama"
+        android:layout_below="@+id/editNama"
+        android:layout_marginTop="10dp"
+        android:text="@string/tanggal_lahir"
+        android:layout_alignStart="@+id/editNama" />
+
+    <EditText
+        android:id="@+id/editJenisKelamin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textJenisKelamin"
+        android:layout_below="@+id/textJenisKelamin"
+        android:drawableLeft="@drawable/ic_person"
+        android:hint="@string/jenisKelamin"
+        android:inputType="text"
+        android:maxLength="1"
+        android:drawablePadding="8dp"
+        android:layout_alignStart="@+id/textJenisKelamin"
+        android:drawableStart="@drawable/ic_person" />
+
+    <TextView
+        android:id="@+id/textJenisKelamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editDate"
+        android:layout_below="@+id/editDate"
+        android:layout_marginTop="10dp"
+        android:text="@string/jenis_kelamin"
+        android:layout_alignStart="@+id/editDate" />
+
+    <EditText
+        android:id="@+id/editAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textAlamat"
+        android:layout_below="@+id/textAlamat"
+        android:drawableLeft="@drawable/ic_place"
+        android:inputType="text"
+        android:maxLength="100"
+        android:drawablePadding="8dp"
+        android:layout_alignStart="@+id/textAlamat"
+        android:drawableStart="@drawable/ic_place" />
+
+    <TextView
+        android:id="@+id/textAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editJenisKelamin"
+        android:layout_below="@+id/editJenisKelamin"
+        android:layout_marginTop="10dp"
+        android:text="@string/alamat"
+        android:layout_alignStart="@+id/editJenisKelamin" />
+
+    <Button
+        android:id="@+id/btnSimpan"
+        style="@style/PlainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/editAlamat"
+        android:drawableLeft="@drawable/ic_save"
+        android:text="@string/simpan"
+        android:drawablePadding="8dp"
+        android:background="@drawable/stylebutton1"
+        android:layout_margin="8dp"
+        android:textSize="20sp"
+        android:layout_alignEnd="@+id/editAlamat"
+        android:drawableStart="@drawable/ic_save" />
+
+</RelativeLayout>

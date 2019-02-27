@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/backgroundSplashscreen">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_main"
+        android:src="@drawable/leaf"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLihatData"
+        android:text="@string/lihat_data"
+        android:drawableLeft="@drawable/ic_archive"
+        android:background="@drawable/stylebutton1"
+        android:drawablePadding="8dp"
+        style="@style/PlainText"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnInputData"
+        android:text="@string/input_data"
+        android:background="@drawable/stylebutton2"
+        android:drawableLeft="@drawable/ic_add_box"
+        android:drawablePadding="8dp"
+        style="@style/PlainText"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnInformasi"
+        android:text="@string/informasi"
+        android:drawableLeft="@drawable/ic_info"
+        android:background="@drawable/stylebutton3"
+        android:drawablePadding="8dp"
+        style="@style/PlainText"/>
+
+</LinearLayout>
